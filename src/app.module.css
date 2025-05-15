@@ -1,0 +1,134 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(139, 139, 139);
+  height: 100vh;
+}
+
+.calculator {
+  position: relative;
+  width: 500px;
+  height: 800px;
+  background-color: rgb(63, 63, 63);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  border: 6px solid rgb(148, 157, 233);
+}
+.keyBoard {
+  display: flex;
+  width: 350px;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.keybords {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 90px;
+}
+
+.keyBoard2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 310px;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+}
+.keyBoard2 button {
+  background-color: rgb(175, 146, 221);
+  width: 80px;
+  height: 70px;
+}
+.buttons,
+.buttons2 {
+  width: 100px;
+  height: 70px;
+  border-radius: 14px;
+  font-size: 30px;
+  cursor: pointer;
+  background-color: rgb(148, 157, 233);
+  border: 2px solid white;
+  color: rgb(12, 12, 12);
+  transition: all 0.3s ease;
+}
+
+.buttons:hover {
+  background-color: rgba(148, 157, 233, 0.596);
+  transition: all 0.3s ease;
+}
+
+.buttons:active {
+  transition: all 0.2s ease;
+  background-color: rgb(255, 255, 255);
+}
+
+.buttons2:active {
+  transition: all 0.2s ease;
+  background-color: rgb(255, 255, 255);
+}
+.buttons2:hover {
+  background-color: rgba(175, 146, 221, 0.616);
+  transition: all 0.3s ease;
+}
+
+.active {
+  transition: all 0.5s ease;
+  background-color: rgb(84, 151, 114);
+  color: black;
+}
+.display {
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.input {
+  width: 400px;
+  height: 20px;
+  text-align: right;
+  font-size: 25px;
+  border: none;
+  margin: 15px 0;
+  font-weight: 500;
+  position: relative;
+  left: 10px;
+}
+.result {
+  width: 400px;
+  height: 100px;
+  font-size: 40px;
+  text-align: right;
+  padding: 50px 20px 0 0;
+  border-top: 2px solid rgb(148, 157, 233);
+  border: 5px solid rgb(148, 157, 233);
+  transition: all 0.5s ease;
+  background-color: rgb(245, 245, 245);
+  color: black;
+  border-radius: 10px;
+}
+.active {
+  width: 400px;
+  height: 100px;
+  font-size: 40px;
+  text-align: right;
+  padding: 50px 20px 0 0;
+  border-top: 2px solid rgb(148, 157, 233);
+  border: 3px solid rgb(148, 157, 233);
+  transition: all 0.5s ease;
+  border-radius: 10px;
+  background-color: rgb(101, 156, 85);
+  color: rgb(255, 255, 255);
+}
