@@ -27,3 +27,32 @@
   background-color: rgba(175, 146, 221, 0.616);
   transition: all 0.3s ease;
 }
+
+@media (max-width: 430px) {
+  .keyBoard2 {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    height: 60px;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .buttons2 {
+    width: 57px;
+    height: 56px;
+    border-radius: 50px;
+    font-size: 41px;
+    font-weight: 800;
+    cursor: pointer;
+    background-color: rgb(214, 138, 37);
+    border: none;
+    color: rgb(14, 13, 13);
+    transition: all 0.3s ease;
+  }
+  .buttons2:hover {
+    color: white;
+    background-color: rgb(214, 138, 37);
+  }
+}

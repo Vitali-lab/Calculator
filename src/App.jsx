@@ -23,12 +23,6 @@ function App() {
           <p className={`${activeResult?styles.active:styles.result}`}>{result? result: '0'}</p>
         </div>
         <div className={styles.keyboards}>
-          <Nums 
-          nextNum={nextNum}
-          operand1 = {operand1} 
-          operand2 = {operand2} 
-          setOperand1={setOperand1}
-          setOperand2 = {setOperand2}/>
           <Operators 
           operand1 = {operand1} 
           operand2 = {operand2} 
@@ -41,6 +35,12 @@ function App() {
           setActiveResult = {setActiveResult}
           setOperator = {setOperator}
           />
+          <Nums 
+          nextNum={nextNum}
+          operand1 = {operand1} 
+          operand2 = {operand2} 
+          setOperand1={setOperand1}
+          setOperand2 = {setOperand2}/>
           </div>
       </div>
    </main>
